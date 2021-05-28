@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .target(
             name: "SVProgressHUD",
-            path: "./Sources"),
+            path: "./SVProgressHUD"),
         .testTarget(
             name: "SVProgressHUDTests",
             dependencies: ["SVProgressHUD"]),
